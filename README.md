@@ -71,7 +71,7 @@ This directory houses the raw data and the subsequent analyses for the print fid
 
   - Original microscope images of each print fidelity resolution coupon used as part of the manual assessment of print fidelity
 
-  - Overview of structure: BiocompatibilityResolutionCoupons/<RESIN>/<STERILIZATION>/{images}
+  - Overview of structure: BiocompatibilityResolutionCoupons/[RESIN]/[STERILIZATION]/{images}
 
     - Sub-Directory: <RESIN>: This sub-directory houses more directories, each labeled for the specific resin sample images
 
