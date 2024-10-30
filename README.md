@@ -4,8 +4,6 @@
 
 AS Liao, K Dai, AB Irez, A Sun, MJ Bennington, S Schaffer, B Chopra, JM Seok, R Adams, YJ Zhang, VA Webster-Wood
 
-Submitted to: Journal of the Mechanical Behavior of Biomedical Materials
-
 2024
 
 
