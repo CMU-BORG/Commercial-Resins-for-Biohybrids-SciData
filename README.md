@@ -8,6 +8,9 @@ AS Liao, K Dai, AB Irez, A Sun, MJ Bennington, S Schaffer, B Chopra, JM Seok, R 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14014330.svg)](https://doi.org/10.5281/zenodo.14014330)
 
+Preprint Available on bioRxiv: ![Static Badge](https://img.shields.io/badge/DOI-10.1101%2F2024.10.31.621115-blue?link=https%3A%2F%2Fdoi.org%2F10.1101%2F2024.10.31.621115)
+
+
 ## Overview:
 
 These are the supplemental files associated with the article. The article encompasses 3 major investigations of multiple 3D-printable resins:
