@@ -10,6 +10,9 @@ AS Liao, K Dai, AB Irez, A Sun, MJ Bennington, S Schaffer, B Chopra, JM Seok, R 
 
 Preprint Available on bioRxiv: [![Static Badge](https://img.shields.io/badge/DOI-10.1101%2F2024.10.31.621115-blue?link=https%3A%2F%2Fdoi.org%2F10.1101%2F2024.10.31.621115)](https://doi.org/10.1101/2024.10.31.621115)
 
+Living Machines 2024 Conference Paper: [![Static Badge](https://img.shields.io/badge/DOI-10.1007%2F978--3--031--72597--5__27-blue)](https://doi.org/10.1007/978-3-031-72597-5_27)
+
+Liao, A.S. et al. (2025). Biocompatibility of Asiga Dental Resins Using a Low-Cost Printer for Biohybrid Actuator Applications. In: Szczecinski, N.S., Webster-Wood, V., Tresch, M., Nourse, W.R.P., Mura, A., Quinn, R.D. (eds) Biomimetic and Biohybrid Systems. Living Machines 2024. Lecture Notes in Computer Science(), vol 14930. Springer, Cham. https://doi.org/10.1007/978-3-031-72597-5_27
 
 ## Overview:
 
