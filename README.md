@@ -29,11 +29,139 @@ Each directory encompasses files related to these studies.
 ### Directory: [Cytotoxicity](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/tree/main/Supplemental/Cytotoxicity)
 The Excel spreadsheets in these files are the raw data exported from the plate reader with some organization in the subsequent sheets. The Minitab files encompass the statistical analyses and figure generation from the plate reader data.
 
+The Excel spreadsheets each have 2 sheets: 
+- RawData
+  - This sheet is directly exported from the Agilent Synergy H1 plate reader and the relevant metadata for the plate reader.
+- TableFormat
+  - This takes the data exported from the plate reader (in 'RawData') and reformats it into a table format with the metadata associated with the raw data
+
+<!--header-->
+<table>
+  <thead>
+    <th> Column Name </th>
+    <th> Possible Values </th>
+    <th> Description </th>
+  </thead>
+  <tbody>
+    <tr>
+      <td> Plate ID </td>
+      <td> Numeric Integer (1-3) </td>
+      <td> ID used by plate reader to determine which plate was read </td>
+    </tr>
+    <tr>
+      <td> Plate Row </td>
+      <td> String (A-H) </td>
+      <td> Row ID used to identify which cell the specific reading was from </td>
+    </tr>
+    <tr>
+      <td> Plate Column </td>
+      <td> Numeric Integer (1-12) </td>
+      <td> Column ID of the plate used to identify which cell the specific reading was from </td>
+    </tr>
+    <tr>
+      <td> Excel Row ID </td>
+      <td> Numeric Integer </td>
+      <td> Row ID of the Excel sheet in 'RawData' used to identify which cell the specific reading was from for the Calcein reading </td>
+    </tr>
+    <tr>
+      <td> Excel Column ID </td>
+      <td> String </td>
+      <td> Column ID of the Excel sheet in 'RawData' used to identify which cell the specific reading was from </td>
+    </tr>
+    <tr>
+      <td rowspan=15> Resin </td>
+      <td> Live - EthD Only </td>
+      <td> Negative Control Well (No treatment to cells) - Ethidium Homodimer-1 Dye Only </td>
+    </tr>
+    <tr>
+      <td> Live - Cal Only </td>
+      <td> Negative Control Well (No treatment to cells) - Calcein AM Dye Only </td>
+    </tr>
+    <tr>
+      <td> Dead - EthD Only </td>
+      <td> Positive Control Well (70% Ethanol treatment to cells, no resin) - Ethidium Homodimer-1 Dye Only </td>
+    </tr>
+    <tr>
+      <td> Dead - Cal Only </td>
+      <td> Positive Control Well (70% Ethanol treatment to cells, no resin) - Calcein AM Dye Only </td>
+    </tr>
+    <tr>
+      <td> Blank </td>
+      <td> Empty well </td>
+    </tr>
+    <tr>
+      <td> Dye Only </td>
+      <td> No cells, no resin samples, only Ethidium Homodimer-1/Calcein AM solution </td>
+    </tr>
+    <tr>
+      <td> PDMS </td>
+      <td> Cells exposed to PDMS samples </td>
+    </tr>
+    <tr>
+      <td> FormLabs Silicone 40A - IPA/BuOAc </td>
+      <td> Cells exposed to <a href="https://formlabs.com/store/materials/silicone-40a-resin/">FormLabs Silicone 40A</a> postprocessed with an 80% IPA and 20% <i>n</i>-butyl acetate (BuOAc) solution  </td>
+    </tr>
+    <tr>
+      <td> FormLabs Silicone 40A - IPA Only </td>
+      <td> Cells exposed to <a href="https://formlabs.com/store/materials/silicone-40a-resin/">FormLabs Silicone 40A</a> postprocessed with 100% IPA </td>
+    </tr>
+    <tr>
+      <td> 3D Resyn Bioflex A10 IPA Wash </td>
+      <td> Cells exposed to <a href="https://www.3dresyns.com/products/3dresyn-bioflex-a10-mb-monomer-based">3Dresyn Bioflex A10 MB Monomer Based</a> postprocessed with 100% IPA </td>
+    </tr>
+    <tr>
+      <td> 3D Resyn Bioflex A10 Proprietary Wash </td>
+      <td> Cells exposed to <a href="https://www.3dresyns.com/products/3dresyn-bioflex-a10-mb-monomer-based">3Dresyn Bioflex A10 MB Monomer Based</a> postprocessed with the manufacturer's proprietary wash solution, <a href="https://www.3dresyns.com/products/cleaning-fluid-unw2-bio-ultra-non-whitening-biocompatible-cleaner-with-medium-viscosity-for-ultra-gloss-and-transparency-of-prints">UNW2</a> </td>
+    </tr>
+    <tr>
+      <td> Asiga DentaGuide </td>
+      <td> Cells exposed to <a href="https://www.asiga.com/materials-dental/">Asiga DentaGUIDE</a> </td>
+    </tr>
+    <tr>
+      <td> Asiga DentaGum </td>
+      <td> Cells exposed to <a href="https://www.asiga.com/materials-dental/">Asiga DentaGUM</a> </td>
+    </tr>
+    <tr>
+      <td> Liqcreate Biomed Clear </td>
+      <td> Cells exposed to <a href="https://www.liqcreate.com/product/bio-med-clear-biocompatible-resin/">Liqcreate Bio-Med Clear</a> </td>
+    </tr>
+    <tr>
+      <td> Phrozen AquaGray 8K </td>
+      <td> Cells exposed to <a href="https://phrozen3d.com/products/aqua-8k-resin">Phrozen Aqua-Gray 8K</a> </td>
+    </tr>
+    <tr>
+      <td rowspan=3> Sterilization </td>
+      <td> N/A </td>
+      <td> Sterilization type not applicable for this 'Resin' condition </td>
+    </tr>
+  <tr>
+    <td> 70% Ethanol </td>
+    <td> Resin samples were sterilized by submersion in 70% ethanol </td>
+  </tr>
+  <tr>
+    <td> Autoclave </td>
+    <td> Resin samples were sterilized using an autoclave </td>
+  </tr>
+  <tr>
+    <td> Calcein Reading (485, 526) </td>
+    <td> Numeric (Relative Fluorescence Units) </td>
+    <td> Fluorescence reading at 485 nm excitation, 526 nm emission (for calcein AM detection) </td>
+  </tr>
+  <tr>
+    <td> Tx Red Reading (584, 625) </td>
+    <td> Numeric (Relative Fluorescence Units) </td>
+    <td> Fluorescence reading at 584 nm excitation, 624 nm emission (for ethidium homodimer-1 detection) </td>
+  </tr>
+  </tbody>
+</table>
+
+<!--/header-->
+
 #### File List
 
-- CytotoxicityPlateReader_allExceptFL_asl_20240209_resin_72h_edited.xlsx: Raw plate reader data for the initial study, which included all resin samples except for the follow-up cytotoxicity analysis for Formlabs Silicone 40A
+- CytotoxicityPlateReader_allExceptFL.xlsx: Raw plate reader data for the initial study, which included all resin samples except for the follow-up cytotoxicity analysis for Formlabs Silicone 40A (IPA/BuOAc)
 
-- CytotoxicityPlateReader_FollowUp_asl_20240402_resin_72h_followUp_withReRuns_aslEdit.xlsx: Raw plate reader data for the follow-up cytotoxicity analysis for Formlabs Silicone 40A
+- CytotoxicityPlateReader_FollowUp_asl_20240402_resin_72h_followUpFL.xlsx: Raw plate reader data for the follow-up cytotoxicity analysis for Formlabs Silicone 40A (IPA/BuOAc)
 
 - CytotoxicityStats_allExceptFL_MINITAB_PLATEREADER_72HVWW_ASL_V06.mpx: Minitab data analysis file for the initial study, which included all resin samples except for the follow-up cytotoxicity analysis for Formlabs Silicone 40A
 
