@@ -228,7 +228,7 @@ This directory houses the raw data and the subsequent analyses for the print fid
 
 - [Print Fidelity Scoring for supplemental to paper - Google Forms.pdf](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/Print%20Fidelity/Print%20Fidelity%20Scoring%20for%20supplemental%20to%20paper%20-%20Google%20Forms.pdf)
   - PDF copy of the Google Form used as part of the manual assessment of print fidelity
-  - For the resin type and sterilization method questions (Questions 1 and 2), these match the subdirectory names (see [Sub-Directory: BiocompatibilityResolutionCoupons](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/edit/main/README.md#sub-directory-biocompatibilityresolutioncoupons) for details)
+  - For the resin type and sterilization method questions (Questions 1 and 2), these match the subdirectory names (see [Sub-Directory: BiocompatibilityResolutionCoupons](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024?tab=readme-ov-file#sub-directory-biocompatibilityresolutioncoupons) for details)
   - For the plate ID and the sample ID (Questions 4 and 5), 
 
 #### Sub-Directory: [BiocompatibilityResolutionCoupons](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/tree/main/Supplemental/Print%20Fidelity/BiocompatibilityResolutionCoupons)
@@ -252,7 +252,7 @@ This directory houses the raw data and the subsequent analyses for the print fid
           - [pID\]: 1
           - [sampleID\]: 2
 
-*<a name="Table-2"><\a>Table 2: Folder descriptions for the [RESIN] subdirectory*
+*<a name="Table-2"></a>Table 2: Folder descriptions for the [RESIN] subdirectory*
 | Folder Name  | Samples housed in the associated folder are composed of the following resin |
 | ------------- | ------------- |
 | 3DresynIPA | [3Dresyn Bioflex A10 MB Monomer Based](https://www.3dresyns.com/products/3dresyn-bioflex-a10-mb-monomer-based) postprocessed with 100% IPA  |
@@ -264,7 +264,7 @@ This directory houses the raw data and the subsequent analyses for the print fid
 | LiqcreateBiomed | [Liqcreate Bio-Med Clear](https://www.liqcreate.com/product/bio-med-clear-biocompatible-resin/) |
 | PhrozenAquaGrey | [Phrozen Aqua-Gray 8K](https://phrozen3d.com/products/aqua-8k-resin) |
 
-*<a name="Table-3"></a>Table 3: Folder descriptions for the [Sterilization] subdirectory*
+*<a name="Table-3"></a>Table 3: Folder descriptions for the [STERILIZATION] subdirectory*
 | Folder Name  | Images of samples housed in the associated folder underwent the following sterilization treatment prior to imaging|
 | ------------- | ------------- |
 | Autoclave | Autoclaving |
