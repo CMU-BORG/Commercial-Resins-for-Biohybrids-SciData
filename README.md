@@ -34,16 +34,14 @@ These are the supplemental files associated with the article. The article encomp
 
 Each directory encompasses files related to these studies.
 
-### Directory: [Cytotoxicity](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/tree/main/Supplemental/Cytotoxicity)
-The Excel spreadsheets in these files are the raw data exported from the plate reader with some organization in the subsequent sheets. The Minitab files encompass the statistical analyses and figure generation from the plate reader data.
-
-The Excel spreadsheets each have 2 sheets: 
+### Directory: [Cytotoxicity](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Cytotoxicity)
+The Excel spreadsheets in these files are the raw data exported from the plate reader with some organization in the subsequent sheets. The Excel spreadsheets each have 2 sheets: 
 - RawData
   - This sheet is directly exported from the Agilent Synergy H1 plate reader and the relevant metadata for the plate reader.
 - TableFormat
   - This takes the data exported from the plate reader (in 'RawData') and reformats it into a table format with the metadata associated with the raw data
 
-*<a name="Table-1"></a>Table 1: Columns and expected values for the 'TableFormat' sheet in cytotoxicity raw data spreadsheets ([CytotoxicityPlateReader_allExceptFL.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/Cytotoxicity/CytotoxicityPlateReader_allExceptFL.xlsx) and [CytotoxicityPlateReader_FollowUp_asl_20240402_resin_72h_followUpFL.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/Cytotoxicity/CytotoxicityPlateReader_FollowUp_asl_20240402_resin_72h_followUpFL.xlsx))*
+*<a name="Table-1"></a>Table 1: Columns and expected values for the 'TableFormat' sheet in cytotoxicity raw data spreadsheets ([CytotoxicityPlateReader_allExceptFL.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Cytotoxicity/CytotoxicityPlateReader_allExceptFL.xlsx) and [CytotoxicityPlateReader_FollowUp_asl_20240402_resin_72h_followUpFL.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Cytotoxicity/CytotoxicityPlateReader_FollowUp_asl_20240402_resin_72h_followUpFL.xlsx))*
 <!--header-->
 <table>
   <thead>
@@ -168,70 +166,56 @@ The Excel spreadsheets each have 2 sheets:
 
 #### File List
 
-- [CytotoxicityPlateReader_allExceptFL.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/Cytotoxicity/CytotoxicityPlateReader_allExceptFL.xlsx):
+- [CytotoxicityPlateReader_allExceptFL.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Cytotoxicity/CytotoxicityPlateReader_allExceptFL.xlsx):
   - Raw plate reader data for the initial study, which included all resin samples except for the follow-up cytotoxicity analysis for Formlabs Silicone 40A (IPA/BuOAc)
   - See [Table 1](#Table-1) for descriptions on the 'TableFormat' sheet
 
-- [CytotoxicityPlateReader_FollowUp_asl_20240402_resin_72h_followUpFL.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/Cytotoxicity/CytotoxicityPlateReader_FollowUp_asl_20240402_resin_72h_followUpFL.xlsx):
+- [CytotoxicityPlateReader_FollowUp_asl_20240402_resin_72h_followUpFL.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Cytotoxicity/CytotoxicityPlateReader_FollowUp_asl_20240402_resin_72h_followUpFL.xlsx):
   - Raw plate reader data for the follow-up cytotoxicity analysis for Formlabs Silicone 40A (IPA/BuOAc)
   - See [Table 1](#Table-1) for descriptions on the 'TableFormat' sheet
 
-- CytotoxicityStats_allExceptFL_MINITAB_PLATEREADER_72HVWW_ASL_V06.mpx: Minitab data analysis file for the initial study, which included all resin samples except for the follow-up cytotoxicity analysis for Formlabs Silicone 40A
 
-- CytotoxicityStats_followUp_72h.mpx: Minitab data analysis file for the follow-up cytotoxicity analysis for Formlabs Silicone 40A
-
-
-
-### Directory: [CAD Files for 3D Printing Samples](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/tree/main/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples)
+### Directory: [CAD Files for 3D Printing Samples](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples)
 This directory includes the SolidWorks part files that house the designs for the samples used in the study.
 
 #### File List
 
-- [96wellspecimen.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/96wellspecimen.SLDPRT)
+- [96wellspecimen.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/96wellspecimen.SLDPRT)
   - Design for the cytotoxicity analysis samples - these printed parts were cultured with the cells in a 96 well plate
 
-- [Compression_ASTM_D575_40percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D575_40percentscale.SLDPRT)
+- [Compression_ASTM_D575_40percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D575_40percentscale.SLDPRT)
   - Design for the compression test sample pucks for the elastomeric resins
 
-- [Compression_ASTM_D695_20percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D695_20percentscale.SLDPRT)
+- [Compression_ASTM_D695_20percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D695_20percentscale.SLDPRT)
   - Design for the compression test sample pucks for the rigid resins
 
-- [Dogbone_ASTM_D412C_halfsize.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Dogbone_ASTM_D412C_halfsize.SLDPRT)
+- [Dogbone_ASTM_D412C_halfsize.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Dogbone_ASTM_D412C_halfsize.SLDPRT)
   - Design for the tensile test dogbones for the elastomeric resins
 
-- [Dogbone_ASTM_D638V_31percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Dogbone_ASTM_D638V_31percentscale.SLDPRT)
+- [Dogbone_ASTM_D638V_31percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Dogbone_ASTM_D412C_halfsize.SLDPRT)
   - Design for the tensile test dogbones for the rigid resins
 
-- [resolutionCoupon_merged.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/resolutionCoupon_merged.SLDPRT)
+- [resolutionCoupon_merged.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/resolutionCoupon_merged.SLDPRT)
   - Design for the samples printed to assess print fidelity
 
 
 
-### Directory: [Print Fidelity](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/tree/main/Supplemental/Print%20Fidelity)
-This directory houses the raw data and the subsequent analyses for the print fidelity assessment. Images of the print fidelity resolution coupons can be found within the BiocompatibilityResolutionCoupons. These images were assessed manually via a Google Form (Print Fidelity Scoring for supplemental to paper - Google Forms.pdf). The raw data for the resulting assessment can be found in the Excel spreadsheet. The statistical analyses can be found in the Minitab files. Personally identifiable information has been recoded into a numerical value.
+### Directory: [Print Fidelity](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Print%20Fidelity)
+This directory houses the raw data and the subsequent analyses for the print fidelity assessment. Images of the print fidelity resolution coupons can be found within the BiocompatibilityResolutionCoupons. These images were assessed manually via a Google Form (Print Fidelity Scoring for supplemental to paper - Google Forms.pdf). The raw data for the resulting assessment can be found in the Excel spreadsheet. Personally identifiable information has been recoded into a numerical value.
 
 #### File List
 
-- printFidelity_rawData.xlsx
+- [printFidelity_rawData.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Print%20Fidelity/printFidelity_rawData.xlsx)
   - Raw data from the manual assessment of print fidelity using the Google Form survey
-  - The column names are associated with the questions in the questionnaire used for the manual scoring ([Print Fidelity Scoring for supplemental to paper - Google Forms.pdf](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/Print%20Fidelity/Print%20Fidelity%20Scoring%20for%20supplemental%20to%20paper%20-%20Google%20Forms.pdf))
+  - The column names are associated with the questions in the questionnaire used for the manual scoring ([Print Fidelity Scoring for supplemental to paper - Google Forms.pdf](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Print%20Fidelity/Print%20Fidelity%20Scoring%20for%20supplemental%20to%20paper%20-%20Google%20Forms.pdf))
   - The 'Email' collected from the questionnaire was used as a scorer ID. In the raw data spreadsheet, it has been recoded as a number to protect scorer privacy (Column B)
 
-- AppendixC_PrintFidelity_BoxPlots_mixed model (1)_ASL (2) ASL_20240812_withBar.mpx
-  - Minitab data analysis file for generating box plots for all of the print fidelity manual assessment data
-
-- print fidelity form data.xlsx
-  - Raw data from the manual assessment of print fidelity using the Google Form survey with the pairwise comparison results from the Minitab files
-
-- Print Fidelity mixed effects model.mpx
-  - Minitab data analysis file for assessing the manual assessment of print fidelity and generation of heatmaps
-
-- [Print Fidelity Scoring for supplemental to paper - Google Forms.pdf](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/Print%20Fidelity/Print%20Fidelity%20Scoring%20for%20supplemental%20to%20paper%20-%20Google%20Forms.pdf)
+- [Print Fidelity Scoring for supplemental to paper - Google Forms.pdf](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Print%20Fidelity/Print%20Fidelity%20Scoring%20for%20supplemental%20to%20paper%20-%20Google%20Forms.pdf)
   - PDF copy of the Google Form used as part of the manual assessment of print fidelity
-  - For the resin type and sterilization method questions (Questions 1 and 2), these match the subdirectory names (see [Sub-Directory: BiocompatibilityResolutionCoupons](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024?tab=readme-ov-file#sub-directory-biocompatibilityresolutioncoupons) for details)
+  - For the resin type and sterilization method questions (Questions 1 and 2), these match the subdirectory names (see [Sub-Directory: BiocompatibilityResolutionCoupons](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData#sub-directory-biocompatibilityresolutioncoupons) for details)
   - For the plate ID and the sample ID (Questions 4 and 5), 
 
-#### Sub-Directory: [BiocompatibilityResolutionCoupons](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/tree/main/Supplemental/Print%20Fidelity/BiocompatibilityResolutionCoupons)
+#### Sub-Directory: [BiocompatibilityResolutionCoupons](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Print%20Fidelity/BiocompatibilityResolutionCoupons)
 
 - Original microscope images of each print fidelity resolution coupon used as part of the manual assessment of print fidelity
 
@@ -246,7 +230,7 @@ This directory houses the raw data and the subsequent analyses for the print fid
         - The sterilization type [sterilizationType] is in a shortened format. Refer to the [STERILIZATION] directory housing the image for the longer name
         - The plate ID [pID] corresponds to the printing round that sample is part of since multiple prints were needed to fabricate all of the samples in the study
         - The sample ID [sampleID] corresponds to the individual sample for tracking purposes
-        - For example, for "3DIPA_Au_Plate1_2.png" (Located [here](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/blob/41b6656c9c1e08af4327d9a3535cf96991ccb853/Supplemental/Print%20Fidelity/BiocompatibilityResolutionCoupons/3DresynIPA/Autoclave/3DIPA_Au_Plate1_2.png)):
+        - For example, for "3DIPA_Au_Plate1_2.png" (Located [here](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Print%20Fidelity/BiocompatibilityResolutionCoupons/3DresynIPA/Autoclave/3DIPA_Au_Plate1_2.png)):
           - [resinType\]: "3DIPA" ([RESIN\] folder: "3DresynIPA")
           - [sterilizationType\]: "Au" ([STERILIZATION\] folder: "Autoclave")
           - [pID\]: 1
@@ -273,28 +257,28 @@ This directory houses the raw data and the subsequent analyses for the print fid
 
 
 
-### Directory: [Mechanical Testing Data and Modeling](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/tree/main/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling)
+### Directory: [Mechanical Testing Data and Modeling](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling)
 The Excel document in this folder contains the mechanical data for all tensile and compressive tests. Excess data after specimens failed are removed in the Compession_Rem and Tensile_Rem tabs for the compression and tensile tests respectively. The MATLAB files contain all of the analysis code used to process the force-length data into stress-strain data, fit the mechanical models according to the methods laid out in the main manuscript, generate the mechanical analysis results figures, and calculate the numerical metrics reported in the manuscript. The .tgn file is used to generate the table of Yeoh model parameters (Table 10). Finally, the MATLAB Outputs folder contains the generated outputs of the MATLAB scripts. Within these folders, the two .mat files contain the results of the mechanical model fits, and the Excel file contains the compile scalar metrics and Yeoh model parameters. The Output Figures folder contains the rendered data plots generated by the mechanical analysis MATLAB scripts.
 
 #### File List
 
-- masterRawData_v08.xlsx: Contains all tensile and compression testing data for both rigid and elastomeric samples
+- [masterRawData_v08.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/masterRawData_v08.xlsx): Contains all tensile and compression testing data for both rigid and elastomeric samples
 
-- MaterialModelFitting_MJB.m: MATLAB script that conducts all mechanical analysis and modeling fitting reported in the manuscript. 
+- [MaterialModelFitting_MJB.m](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MaterialModelFitting_MJB.m): MATLAB script that conducts all mechanical analysis and modeling fitting reported in the manuscript. 
 
-- Bootstrap_Model_Fit.m: MATLAB function that conducts the bootstrapping parameter estimation described in the elastomeric resin modeling section
+- [Bootstrap_Model_Fit.m](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Bootstrap_Model_Fit.m): MATLAB function that conducts the bootstrapping parameter estimation described in the elastomeric resin modeling section
 
-- RoundToSigFigs.m: MATLAB helper function that rounds numerical values to an appropriate number of significant figures
+- [RoundToSigFigs.m](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/RoundToSigFigs.m): MATLAB helper function that rounds numerical values to an appropriate number of significant figures
 
 - YeohModelParameters.tgn: Latex Table file to generate Table 10
 
-- Sub-Directory: [MATLAB Outputs](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/tree/main/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MATLAB%20Outputs)
+- Sub-Directory: [MATLAB Outputs](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MATLAB%20Outputs)
 
-  - Sub-Directory: [FinalAnalysis](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/tree/main/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MATLAB%20Outputs/FinalAnalysis) (regenerated data reporting the same data as [20240523](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-2024/tree/main/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MATLAB%20Outputs/20240523))
+  - Sub-Directory: [FinalAnalysis](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MATLAB%20Outputs/FinalAnalysis) (regenerated data reporting the same data as [20240523](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MATLAB%20Outputs/20240523))
 
     - Sub-Directory: Output Figures: All data plots generated from the mechanical analysis
 
-    - Material Properties.xlsx: Calculated scalar metrics and model parameters for all tested samples. Data are labeled for conducting statistical analysis in MiniTab
+    - Material Properties.xlsx: Calculated scalar metrics and model parameters for all tested samples.
 
     - RigidMaterialsModels.mat: MATLAB struct containing the mechanical models and scalar metrics for the rigid resin samples
 
