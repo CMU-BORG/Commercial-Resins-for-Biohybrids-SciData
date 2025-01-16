@@ -1,6 +1,6 @@
 # README for the Supplemental Files to:
 
-“Cytotoxicity and Characterization of 3D-Printable Resins Using a Low-Cost Printer for Muscle-based Biohybrid Devices”
+**Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devices]{Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devices**
 
 AS Liao, K Dai, AB Irez, A Sun, MJ Bennington, S Schaffer, B Chopra, JM Seok, R Adams, YJ Zhang, VA Webster-Wood
 
@@ -9,9 +9,9 @@ AS Liao, K Dai, AB Irez, A Sun, MJ Bennington, S Schaffer, B Chopra, JM Seok, R 
 > [!NOTE]
 > If using this dataset, please cite using the following DOI for this dataset:
 > 
-> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14014330.svg)](https://doi.org/10.5281/zenodo.14014330)
+> TBD
 >
-> Liao, A. S., Dai, K., irez, A. B., Sun, A., Bennington, M. J., Schaffer, S., Chopra, B., Seok, J. M., Adams, R., Zhang, Y. J., & Webster-Wood, V. (2024). CMU-BORG/Commercial-Resins-for-Biohybrids-2024: Cytotoxicity and Characterization of 3D-Printable Resins Using a Low-Cost Printer for Muscle-based Biohybrid Devices (supplemental-data) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14014331
+> Liao, A. S., Dai, K., irez, A. B., Sun, A., Bennington, M. J., Schaffer, S., Chopra, B., Seok, J. M., Adams, R., Zhang, Y. J., & Webster-Wood, V. (2024). CMU-BORG/Commercial-Resins-for-Biohybrids-SciData: Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devices]{Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devices [Data set]. Zenodo. TBD
 
 ## Associated Work:
 Preprint Available on bioRxiv: [![Static Badge](https://img.shields.io/badge/DOI-10.1101%2F2024.10.31.621115-blue?link=https%3A%2F%2Fdoi.org%2F10.1101%2F2024.10.31.621115)](https://doi.org/10.1101/2024.10.31.621115)
