@@ -270,8 +270,6 @@ The Excel document in this folder contains the mechanical data for all tensile a
 
 - [RoundToSigFigs.m](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/RoundToSigFigs.m): MATLAB helper function that rounds numerical values to an appropriate number of significant figures
 
-- YeohModelParameters.tgn: Latex Table file to generate Table 10
-
 - Sub-Directory: [MATLAB Outputs](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MATLAB%20Outputs)
 
   - Sub-Directory: [FinalAnalysis](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MATLAB%20Outputs/FinalAnalysis) (regenerated data reporting the same data as [20240523](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MATLAB%20Outputs/20240523))
