@@ -1,6 +1,6 @@
-# README for the Supplemental Files to:
+# README for Dataset Described In:
 
-**Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devices]{Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devices**
+**Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devicess**
 
 AS Liao, K Dai, AB Irez, A Sun, MJ Bennington, S Schaffer, B Chopra, JM Seok, R Adams, YJ Zhang, VA Webster-Wood
 
@@ -11,7 +11,7 @@ AS Liao, K Dai, AB Irez, A Sun, MJ Bennington, S Schaffer, B Chopra, JM Seok, R 
 > 
 > TBD
 >
-> Liao, A. S., Dai, K., irez, A. B., Sun, A., Bennington, M. J., Schaffer, S., Chopra, B., Seok, J. M., Adams, R., Zhang, Y. J., & Webster-Wood, V. (2024). CMU-BORG/Commercial-Resins-for-Biohybrids-SciData: Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devices]{Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devices [Data set]. Zenodo. TBD
+> Liao, A. S., Dai, K., irez, A. B., Sun, A., Bennington, M. J., Schaffer, S., Chopra, B., Seok, J. M., Adams, R., Zhang, Y. J., & Webster-Wood, V. (2024). CMU-BORG/Commercial-Resins-for-Biohybrids-SciData: Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devices [Data set]. Zenodo. TBD
 
 ## Associated Work:
 Preprint Available on bioRxiv: [![Static Badge](https://img.shields.io/badge/DOI-10.1101%2F2024.10.31.621115-blue?link=https%3A%2F%2Fdoi.org%2F10.1101%2F2024.10.31.621115)](https://doi.org/10.1101/2024.10.31.621115)
