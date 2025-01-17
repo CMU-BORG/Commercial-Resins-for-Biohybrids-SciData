@@ -216,7 +216,7 @@ This directory houses the raw data and the subsequent analyses for the print fid
   - The plate ID and the sample ID (Questions 4 and 5) are encoded in the file name of the microscope image
 - [PrintFidelity_MEMonly.mpx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/707753de7882992734af89946f87900972d393c4/Supplemental/Print%20Fidelity/PrintFidelity_MEMonly.mpx)
   - Mixed effects model for each scored feature from the manual assessment
-  - The Worksheet matches the format in [printFidelity_rawData.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Print%20Fidelity/printFidelity_rawData.xlsx), with the following adjustmentsL
+  - The Worksheet matches the format in [printFidelity_rawData.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Print%20Fidelity/printFidelity_rawData.xlsx), with the following adjustments:
     - Shortened column names instead of the full question
     - The responses for the rows containing the largest and smallest features (Columns C9 and C10) were recoded from the original text responses (A-G) to numeric (1-7) for the analysis. These recoded columns were added to the end of the Worksheet in C17 and C18
 
