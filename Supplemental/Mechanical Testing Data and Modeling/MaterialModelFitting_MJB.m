@@ -4,8 +4,8 @@
 clear all; close all; clc
 
 %% Load Data
-saveDir = "MATLAB Outputs\FinalAnalysis\";
-masterDataFile = "masterRawData_v08.xlsx";
+saveDir = "MATLAB Outputs\20250212\";
+masterDataFile = "masterRawData_clean.xlsx";
 
 out_file = saveDir + "Material Properties.xlsx";
 
@@ -55,8 +55,8 @@ alpha = 0.3;
 lines = {'-','--','-.'};
 markers = {'o','v','diamond'};
 
-resin_names = {{"3Dresyn Bioflex","A10 MF - IPA"},
-               {"3Dresyn Bioflex","A10 MF - UNW2"},
+resin_names = {{"3Dresyn Bioflex","A10 MB - IPA"},
+               {"3Dresyn Bioflex","A10 MB - UNW2"},
                {"Asiga DentaGUIDE"},
                {"Asiga DentaGUM"},
                {"Formlabs Silicone","40A - IPA"},
