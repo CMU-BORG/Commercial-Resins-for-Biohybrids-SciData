@@ -267,7 +267,7 @@ The Excel document in this folder ("masterRawData_clean.xlsx") contains the mech
 
 #### File List
 
-- [masterRawData_clean.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/masterRawData_clean.xlsx): Contains all tensile and compression testing data for both rigid and elastomeric samples
+- [masterRawData_v08.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/masterRawData_v08.xlsx): Contains all tensile and compression testing data for both rigid and elastomeric samples
 
 - [MaterialModelFitting_MJB.m](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/MaterialModelFitting_MJB.m): MATLAB script that conducts all mechanical analysis and modeling fitting reported in the manuscript. 
 
