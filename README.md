@@ -176,27 +176,33 @@ The Excel spreadsheets in these files are the raw data exported from the plate r
 
 
 ### Directory: [CAD Files for 3D Printing Samples](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples)
-This directory includes the SolidWorks part files that house the designs for the samples used in the study.
+This directory includes the SolidWorks and STEP files that house the designs for the samples used in the study.
 
 #### File List
+- Design for the cytotoxicity analysis samples - these printed parts were cultured with the cells in a 96 well plate
+  - [96wellspecimen.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/96wellspecimen.SLDPRT)
+  - [96wellspecimen.STEP](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/main/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/96wellspecimen.STEP)
 
-- [96wellspecimen.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/96wellspecimen.SLDPRT)
-  - Design for the cytotoxicity analysis samples - these printed parts were cultured with the cells in a 96 well plate
+- Design for the compression test sample pucks for the elastomeric resins
+  - [Compression_ASTM_D575_40percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D575_40percentscale.SLDPRT)
+  - [Compression_ASTM_D575_40percentscale.STEP](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/main/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D575_40percentscale.STEP)
 
-- [Compression_ASTM_D575_40percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D575_40percentscale.SLDPRT)
-  - Design for the compression test sample pucks for the elastomeric resins
+- Design for the compression test sample pucks for the rigid resins
+  - [Compression_ASTM_D695_20percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D695_20percentscale.SLDPRT)
+  - [Compression_ASTM_D695_20percentscale.STEP](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/main/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D695_20percentscale.STEP)
+  
+- Design for the tensile test dogbones for the elastomeric resins
+  - [Dogbone_ASTM_D412C_halfsize.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Dogbone_ASTM_D412C_halfsize.SLDPRT)
+  - [Dogbone_ASTM_D412C_halfsize.STEP](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/main/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Dogbone_ASTM_D412C_halfsize.STEP)
+  
+- Design for the tensile test dogbones for the rigid resins
+  - [Dogbone_ASTM_D638V_31percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Dogbone_ASTM_D412C_halfsize.SLDPRT)
+  - [Dogbone_ASTM_D638V_31percentscale.STEP](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/main/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Dogbone_ASTM_D638V_31percentscale.STEP)
 
-- [Compression_ASTM_D695_20percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D695_20percentscale.SLDPRT)
-  - Design for the compression test sample pucks for the rigid resins
-
-- [Dogbone_ASTM_D412C_halfsize.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Dogbone_ASTM_D412C_halfsize.SLDPRT)
-  - Design for the tensile test dogbones for the elastomeric resins
-
-- [Dogbone_ASTM_D638V_31percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Dogbone_ASTM_D412C_halfsize.SLDPRT)
-  - Design for the tensile test dogbones for the rigid resins
-
-- [resolutionCoupon_merged.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/resolutionCoupon_merged.SLDPRT)
-  - Design for the samples printed to assess print fidelity
+- Design for the samples printed to assess print fidelity
+  - [resolutionCoupon_merged.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/resolutionCoupon_merged.SLDPRT)
+  - [resolutionCoupon_merged.STEP](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/main/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/resolutionCoupon_merged.STEP)
+  
 
 
 
@@ -249,7 +255,7 @@ This directory houses the raw data and the subsequent analyses for the print fid
 | AsigaGuide | [Asiga DentaGUIDE](https://www.asiga.com/materials-dental/) |
 | AsigaGum | [Asiga DentaGUM](https://www.asiga.com/materials-dental/) |
 | FormlabsSiliconeIPA | [FormLabs Silicone 40A](https://formlabs.com/store/materials/silicone-40a-resin/) postprocessed with 100% IPA  |
-| FormlabsSiliconMix | [FormLabs Silicone 40A](https://formlabs.com/store/materials/silicone-40a-resin/) postprocessed with an 80% IPA and 20% <i>n</i>-butyl acetate (BuOAc) solution  |
+| FormlabsSiliconeMix | [FormLabs Silicone 40A](https://formlabs.com/store/materials/silicone-40a-resin/) postprocessed with an 80% IPA and 20% <i>n</i>-butyl acetate (BuOAc) solution  |
 | LiqcreateBiomed | [Liqcreate Bio-Med Clear](https://www.liqcreate.com/product/bio-med-clear-biocompatible-resin/) |
 | PhrozenAquaGrey | [Phrozen Aqua-Gray 8K](https://phrozen3d.com/products/aqua-8k-resin) |
 
