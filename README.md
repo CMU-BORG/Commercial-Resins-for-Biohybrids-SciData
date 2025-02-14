@@ -1,6 +1,6 @@
 # README for Dataset Described In:
 
-**Resin Cytotoxic, Mechanical, and Print Fidelity Properties with a Low-Cost Printer for C2C12 Biohybrid Devicess**
+**Cytotoxic and Mechanical Properties of Resins 3D Printed with Low-Cost Hardware for C2C12 Biohybrid Actuators**
 
 AS Liao, K Dai, AB Irez, A Sun, MJ Bennington, S Schaffer, B Chopra, JM Seok, R Adams, YJ Zhang, VA Webster-Wood
 
@@ -308,16 +308,16 @@ To reproduce the model fitting (Yeoh model and Hookean model) for the tensile an
 	
 	- Sub-Directory: [Test Beam Geometry](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/main/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Geometry)
 		
-		- CenterLine_s_0_5.txt:
+		- [CenterLine_s_0_5.txt](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Geometry/CenterLine_s_0_5.txt):
   			- Contains the geometry of the beam centerline used to generate the beams in SolidWorks
 		
-		- TestBeam1_s_0_5_10mm_3mm_with_weight_attachment.SLDPRT:
+		- [TestBeam1_s_0_5_10mm_3mm_with_weight_attachment.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Geometry/TestBeam1_s_0_5_10mm_3mm_with_weight_attachment.SLDPRT):
   			- SolidWorks file containing the geometry of the test beams
 		
-		- TestBeam1_s_0_5_10mm_3mm_Phrozen.ctb:
+		- [TestBeam1_s_0_5_10mm_3mm_Phrozen.ctb](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Geometry/TestBeam1_s_0_5_10mm_3mm_Phrozen.ctb):
   			- print file with settings for the Phrozen AquaGray 8K test beam
 		
-		- TestBeam1_s_0_5_10mm_3mm_BiomedClear_v2.ctb:
+		- [TestBeam1_s_0_5_10mm_3mm_BiomedClear_v2.ctb](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Geometry/TestBeam1_s_0_5_10mm_3mm_BiomedClear_v2.ctb):
   			- print file with settings for the Liqcreate Bio-Med Clear test beam
 		
 	- Sub-Directory: [Test Beam Images](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/main/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Images)
@@ -371,25 +371,25 @@ To reproduce the model fitting (Yeoh model and Hookean model) for the tensile an
 			
 			- Sub-Directory: [Sample 5](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/main/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Images/Liqcreate%20Beams/Sample%205)
 			
-	- BeamModel.m:
+	- [BeamModel.m](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/BeamModel.m):
  		- Function that returns the deformed configuration of a geometrically exact Euler-Bernoulli beam under a dead weight.
 	
-	- D1_matrix:
+	- [D1_matrix](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/D1_matrix.m):
  		- Function that generates the finite difference matrix for the first derivative
 	
-	- FittingBeamModel.m:
+	- [FittingBeamModel.m](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/FittingBeamModel.m):
  		- Controller script that runs the full beam experiment analysis. To regenerate the results of the beam analysis, only this script needs to be run. This scipt utilized the other functions in this folder.
 	
-	- Jacobian.m:
+	- [Jacobian.m](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Jacobian.m):
  		- Function that calculates the Jacobian of a vector-valued function using a finite difference approach.
 	
-	- QuasistaticForceBalance.m:
+	- [QuasistaticForceBalance.m](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/QuasistaticForceBalance.m):
  		- Function that returns the residuals of the governing equations of the beam model
 	
-	- ReturnSubset.m:
+	- [ReturnSubset.m](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/ReturnSubset.m):
  		- Helper function that returns a subset of a vector-valued function
 	
-	- SummaryComparisons.svg:
+	- [SummaryComparisons.svg](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/SummaryComparison.svg):
  		- Figure generated by the FittingBeamModel.m script
 
 *<a name="Table-3"></a>Table 3: Sheets, columns and expected values for the [masterRawData_clean.xlsx](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/masterRawData_clean.xlsx). The 'Compression' and 'Tensile' sheets contain all of the raw data that was collected. The 'Compression_Rem' and the 'Tensile_Rem' sheets contain the raw data with specific data points removed based on the exclusion criteria.*
