@@ -249,7 +249,7 @@ This directory houses the raw data and the subsequent analyses for the print fid
 | AsigaGuide | [Asiga DentaGUIDE](https://www.asiga.com/materials-dental/) |
 | AsigaGum | [Asiga DentaGUM](https://www.asiga.com/materials-dental/) |
 | FormlabsSiliconeIPA | [FormLabs Silicone 40A](https://formlabs.com/store/materials/silicone-40a-resin/) postprocessed with 100% IPA  |
-| FormlabsSiliconMix | [FormLabs Silicone 40A](https://formlabs.com/store/materials/silicone-40a-resin/) postprocessed with an 80% IPA and 20% <i>n</i>-butyl acetate (BuOAc) solution  |
+| FormlabsSiliconeMix | [FormLabs Silicone 40A](https://formlabs.com/store/materials/silicone-40a-resin/) postprocessed with an 80% IPA and 20% <i>n</i>-butyl acetate (BuOAc) solution  |
 | LiqcreateBiomed | [Liqcreate Bio-Med Clear](https://www.liqcreate.com/product/bio-med-clear-biocompatible-resin/) |
 | PhrozenAquaGrey | [Phrozen Aqua-Gray 8K](https://phrozen3d.com/products/aqua-8k-resin) |
 
