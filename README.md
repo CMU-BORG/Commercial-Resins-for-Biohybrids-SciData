@@ -181,7 +181,7 @@ This directory includes the SolidWorks and STEP files that house the designs for
 #### File List
 
 - [96wellspecimen.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/96wellspecimen.SLDPRT)
-- [96wellspecimen.STEP]((https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/main/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/96wellspecimen.STEP))
+- [96wellspecimen.STEP](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/main/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/96wellspecimen.STEP)
   - Design for the cytotoxicity analysis samples - these printed parts were cultured with the cells in a 96 well plate
 
 - [Compression_ASTM_D575_40percentscale.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Compression_ASTM_D575_40percentscale.SLDPRT)
