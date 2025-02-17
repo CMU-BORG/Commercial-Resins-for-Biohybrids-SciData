@@ -311,8 +311,9 @@ To reproduce the model fitting (Yeoh model and Hookean model) for the tensile an
 		- [CenterLine_s_0_5.txt](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Geometry/CenterLine_s_0_5.txt):
   			- Contains the geometry of the beam centerline used to generate the beams in SolidWorks
 		
-		- [TestBeam1_s_0_5_10mm_3mm_with_weight_attachment.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Geometry/TestBeam1_s_0_5_10mm_3mm_with_weight_attachment.SLDPRT):
-  			- SolidWorks file containing the geometry of the test beams
+		- CAD file containing the geometry of the test beams:
+  			- [TestBeam1_s_0_5_10mm_3mm_with_weight_attachment.SLDPRT](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Geometry/TestBeam1_s_0_5_10mm_3mm_with_weight_attachment.SLDPRT)
+  			- [TestBeam1_s_0_5_10mm_3mm_with_weight_attachment.STEP](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/a78549541632440e87c94881ab98892627375fff/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Geometry/TestBeam1_s_0_5_10mm_3mm_with_weight_attachment.STEP)
 		
 		- [TestBeam1_s_0_5_10mm_3mm_Phrozen.ctb](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/76407e386342db1ac29c46b98f76e35424a86d60/Supplemental/Mechanical%20Testing%20Data%20and%20Modeling/Beam%20Testing/Test%20Beam%20Geometry/TestBeam1_s_0_5_10mm_3mm_Phrozen.ctb):
   			- print file with settings for the Phrozen AquaGray 8K test beam
