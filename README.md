@@ -176,7 +176,16 @@ The Excel spreadsheets in these files are the raw data exported from the plate r
 
 
 ### Directory: [CAD Files for 3D Printing Samples](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/tree/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples)
-This directory includes the SolidWorks and STEP files that house the designs for the samples used in the study.
+This directory includes the SolidWorks and STEP files that house the designs for the samples used in the study, along with the printer resin profiles and UVTools settings tuned for each resin.
+
+#### Subfolder: Resin Profiles and UVTools Files
+- Within each folder in this directory, there are two files -- a .lyr file containing the resin profile for the Phrozen printer, and a .uvtsu file containing the settings for UVTools postprocessing.
+	- [3Dresyns Bioflex A10 Resin Settings](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/3Dresyns%20Bioflex%20A10%20Resin%20Settings/)
+	- [Asiga DentaGuide Resin Settings](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Asiga%20DentaGuide%20Resin%20Settings/)
+	- [Asiga DentaGum Resin Settings](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Asiga%20DentaGum%20Resin%20Settings/)
+	- [Formlabs Silicone 40A Resin Settings](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Formlabs%20Silicone%2040A%20Resin%20Settings)
+	- [Liqcreate Biomed Clear Resin Settings](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Liqcreate%20Biomed%20Clear%20Resin%20Settings)
+	- [Phrozen Aqua 8K Grey Resin Settings](https://github.com/CMU-BORG/Commercial-Resins-for-Biohybrids-SciData/blob/f351759a86b12f52eb7a917f0f6e4eb815e601a2/Supplemental/CAD%20Files%20for%203D%20Printing%20Samples/Phrozen%20Aqua%208K%20Grey%20Resin%20Settings)
 
 #### File List
 - Design for the cytotoxicity analysis samples - these printed parts were cultured with the cells in a 96 well plate

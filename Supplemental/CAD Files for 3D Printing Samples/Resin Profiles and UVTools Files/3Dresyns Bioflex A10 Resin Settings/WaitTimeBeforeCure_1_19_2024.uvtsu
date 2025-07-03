@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<SuggestionWaitTimeBeforeCure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Enabled>true</Enabled>
+  <AutoApply>false</AutoApply>
+  <ApplyWhen>Different</ApplyWhen>
+  <SetType>ProportionalLayerArea</SetType>
+  <ProportionalCalculateMassFrom>Previous</ProportionalCalculateMassFrom>
+  <ProportionalMassRelativeHeight>0.2</ProportionalMassRelativeHeight>
+  <BottomHeight>0.5</BottomHeight>
+  <FixedBottomWaitTimeBeforeCure>15</FixedBottomWaitTimeBeforeCure>
+  <FixedWaitTimeBeforeCure>3</FixedWaitTimeBeforeCure>
+  <WaitTimeBeforeCureTransitionLayerCount>8</WaitTimeBeforeCureTransitionLayerCount>
+  <ProportionalBottomWaitTimeBeforeCure>60</ProportionalBottomWaitTimeBeforeCure>
+  <ProportionalWaitTimeBeforeCure>32.00</ProportionalWaitTimeBeforeCure>
+  <ProportionalBottomLayerPixels>5000000</ProportionalBottomLayerPixels>
+  <ProportionalLayerPixels>5000000</ProportionalLayerPixels>
+  <ProportionalBottomLayerArea>10000</ProportionalBottomLayerArea>
+  <ProportionalLayerArea>10000</ProportionalLayerArea>
+  <ProportionalBottomWaitTimeBeforeCureMaximumDifference>1</ProportionalBottomWaitTimeBeforeCureMaximumDifference>
+  <ProportionalWaitTimeBeforeCureMaximumDifference>1</ProportionalWaitTimeBeforeCureMaximumDifference>
+  <MinimumBottomWaitTimeBeforeCure>10</MinimumBottomWaitTimeBeforeCure>
+  <MinimumWaitTimeBeforeCure>3.00</MinimumWaitTimeBeforeCure>
+  <MaximumBottomWaitTimeBeforeCure>60</MaximumBottomWaitTimeBeforeCure>
+  <MaximumWaitTimeBeforeCure>60</MaximumWaitTimeBeforeCure>
+  <CreateEmptyFirstLayer>true</CreateEmptyFirstLayer>
+</SuggestionWaitTimeBeforeCure>
