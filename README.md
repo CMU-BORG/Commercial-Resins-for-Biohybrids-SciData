@@ -12,8 +12,17 @@ AS Liao, K Dai, AB Irez, A Sun, MJ Bennington, S Schaffer, B Chopra, JM Seok, R 
 > [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14675757.svg)](https://doi.org/10.5281/zenodo.14675757)
 >
 > Liao, A. S., Dai, K., irez, A. B., Sun, A., Bennington, M. J., Schaffer, S., Chopra, B., Seok, J. M., Adams, R., Zhang, Y. J., & Webster-Wood, V. (2025). CMU-BORG/Commercial-Resins-for-Biohybrids-SciData [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14675757
+>
+> Also, please reference our data descriptor in Scientific Data
+> 
+> [![Static Badge](https://img.shields.io/badge/10.1038%2Fs41597--025--05738--7-blue?label=DOI&link=https%3A%2F%2Fdoi.org%2F10.1038%2Fs41597-025-05738-7)](https://doi.org/10.1038/s41597-025-05738-7)
+>
+> Liao, A.S., Dai, K., Irez, A.B. et al. Cytotoxic and Mechanical Properties of Resins 3D Printed with Low-Cost Hardware for C2C12 Biohybrid Actuators. Sci Data 12, 1416 (2025). https://doi.org/10.1038/s41597-025-05738-7
 
 ## Associated Work:
+Published Data Descriptor in Scientific Data [![Static Badge](https://img.shields.io/badge/10.1038%2Fs41597--025--05738--7-blue?label=DOI&link=https%3A%2F%2Fdoi.org%2F10.1038%2Fs41597-025-05738-7)](https://doi.org/10.1038/s41597-025-05738-7)
+> Liao, A.S., Dai, K., Irez, A.B. et al. Cytotoxic and Mechanical Properties of Resins 3D Printed with Low-Cost Hardware for C2C12 Biohybrid Actuators. Sci Data 12, 1416 (2025). https://doi.org/10.1038/s41597-025-05738-7
+
 Preprint Available on bioRxiv: [![Static Badge](https://img.shields.io/badge/DOI-10.1101%2F2024.10.31.621115-blue?link=https%3A%2F%2Fdoi.org%2F10.1101%2F2024.10.31.621115)](https://doi.org/10.1101/2024.10.31.621115)
 
 > Liao, A.S. et al. (2024). Cytotoxicity and Characterization of 3D-Printable Resins Using a Low-Cost Printer for Muscle-based Biohybrid Devices. bioRxiv. https://doi.org/10.1101/2024.10.31.621115
